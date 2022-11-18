@@ -5,7 +5,7 @@ import { useMemo } from "react";
 
 export default function Campany() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCUUKKEPv_Ehwh4xrkE7h7owuKt_79SOq0",
+    googleMapsApiKey: {API_KEY},
   });
 
   if (!isLoaded) return <div>Loading...</div>;
